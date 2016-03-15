@@ -1,0 +1,181 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1200px;
+}
+
+.top {
+	float:left;
+	padding:10px 0;
+	margin:0;
+	width: 100%;
+	min-width: 1200px;
+	height: 80px;
+	font-size: 40px;
+	text-align: center;
+	line-height: 80px;
+}
+
+.bottom {
+	float:left;
+	padding:20px 0;
+	margin:0;
+	width: 100%;
+	min-width: 1200px;
+	height: 20px;
+}
+
+.preface {
+	padding: 10px 0px;
+	margin: 0;
+	width: 100%;
+	height: atuo;
+	text-indent: 40px;
+}
+
+.main {
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+}
+
+.main_left {
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 17%;
+	min-width:228.297px;
+	height: 100%;
+}
+
+.main_right {
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 17%;
+	min-width:228.297px;
+	height: 100%;
+}
+
+.main_content {
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 66%;
+	height: 100%;
+}
+
+.inter {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.inter .title {
+	float:left;
+	padding: 15px 0px 0px 0px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background: rgba(210, 210, 210, 0.76);
+}
+
+.inter .title .t {
+	text-indent:20px;
+	font-weight: bold;
+}
+
+.inter .title .d {
+	text-indent:40px;
+	padding: 0px 15px;
+}
+
+.inter .params {
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background: rgba(210, 210, 210, 0.76);
+}
+
+.inter .result {
+	float:left;
+	padding: 0px;
+	margin: 0;
+	width: 99.6431%;
+	height: 230px;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.76);
+}
+
+.inter .params .param_table {
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+.inter .params table tr {
+	padding: 0;
+	margin: 0;
+}
+
+.rightText {
+	margin: 0;
+	padding: 0;
+	width:110px;
+	text-align: right;
+}
+
+.result .resultText {
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+}
+
+.imgDiv {
+	margin: 0;
+	padding: 0;
+	width: 55px;
+	height: 21px;
+	background: white;
+}
+
+.imgDiv .img {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.forms {
+	width: 90%;
+}
+
+.annotateDIV {
+	top:156px;
+	padding: 0px 10px;
+	width:100%;
+	position:fixed;
+}
+
+.create_form_table{
+	float:left;
+	margin: 5px 0px 12px 0px;
+	padding: 0px 0px 20px 0px;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-top-color: azure;
+	border-bottom-color: azure;
+}
+
