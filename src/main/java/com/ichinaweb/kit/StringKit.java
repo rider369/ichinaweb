@@ -10,8 +10,9 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.Map.Entry;
+import java.util.Random;
+import java.util.SortedMap;
 import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -974,5 +975,15 @@ public class StringKit {
 			}
 		}
 		return sb.length() > 0 ? sb.substring(1) : "";
+	}
+
+	public static String sortedMapToString(SortedMap<String, String> param) {
+		StringBuffer sb = new StringBuffer();
+		for (Map.Entry<String, String> entry : param.entrySet()) {
+			if (StringKit.notBlank(entry.getKey()) && entry.getValue() != null) {
+				sb.append(entry.getKey() + entry.getValue());
+			}
+		}
+		return sb.toString();
 	}
 }
