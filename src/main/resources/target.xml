@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tag p1="v1" p2="v2" p3="v3">
+<result>123</result>
+</tag>
+
+<tag p1="v1" p2="v2" p3="v3">
+
+</tag>
+
+</xml>
